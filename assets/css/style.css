@@ -468,12 +468,15 @@ body {
 
 .category-card {
   text-align: center;
+  padding: 50px 30px;
   border-radius: var(--radius-5);
 }
 
 .category-card .card-icon {
   background-color: hsla(var(--color), 0.1);
   display: grid;
+  height: 80px;
+	width: 80px;
   place-items: center;
   border-radius: var(--radius-circle);
   margin-inline: auto;
